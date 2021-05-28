@@ -4,15 +4,15 @@ class CustomerProg
 	public static void main(String[] args)
 	{
 		  Scanner sc=new Scanner(System.in);
-		  System.out.println("no.of custumerID: ");
+		  System.out.println("Number of CustumerID: ");
 		  int n= sc.nextInt();
 		  String[] a= new String[n];
-		  System.out.println("enter custumerID: ");
+		  System.out.println("Enter CustumerID: ");
 		  for(int i=0;i<n;i++)
 		  {
 			  a[i]=sc.next();
 		  }
-		  System.out.println("invalid custumerID: ");
+		  System.out.println("Invalid CuqstumerID: ");
 		  for(int i=0;i<n;i++)
 		  {
 			  if(a[i].length()<6)
